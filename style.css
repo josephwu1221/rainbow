@@ -1,0 +1,42 @@
+.rainbow > div {
+  border: 1px solid hsl(0, 80%, 50%);
+  width: 400px;
+  height: 400px;
+  background: red;
+}
+.rainbow > div > div {
+  border: 1px solid hsl(60, 80%, 50%);
+  margin: 10px;
+  background: hsl(60, 80%, 50%);
+  height: 380px;
+}
+.rainbow > div > div > div {
+  border: 1px solid hsl(120, 80%, 50%);
+  margin: 10px;
+  background: hsl(120, 80%, 50%);
+  height: 360px;
+}
+.rainbow > div > div > div > div {
+  border: 1px solid hsl(180, 80%, 50%);
+  margin: 10px;
+  background: hsl(180, 80%, 50%);
+  height: 340px;
+}
+.rainbow > div > div > div > div > div {
+  border: 1px solid hsl(240, 80%, 50%);
+  margin: 10px;
+  background: hsl(240, 80%, 50%);
+  height: 320px;
+}
+.rainbow > div > div > div > div > div > div {
+  border: 1px solid hsl(300, 80%, 50%);
+  margin: 10px;
+  background: hsl(300, 80%, 50%);
+  height: 300px;
+}
+.rainbow > div > div > div > div > div > div > div {
+  border: 1px solid hsl(330, 80%, 50%);
+  margin: 10px;
+  background: hsl(330, 80%, 50%);
+  height: 280px;
+}
