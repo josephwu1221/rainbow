@@ -1,42 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.rainbow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 200px;
+  overflow: hidden;
+}
+.rainbow div {
+  overflow: hidden;
+}
 .rainbow > div {
-  border: 1px solid hsl(0, 80%, 50%);
   width: 400px;
   height: 400px;
   background: red;
+  border-radius: 50%;
 }
 .rainbow > div > div {
-  border: 1px solid hsl(60, 80%, 50%);
   margin: 10px;
   background: hsl(60, 80%, 50%);
   height: 380px;
+  border-radius: 50%;
 }
 .rainbow > div > div > div {
-  border: 1px solid hsl(120, 80%, 50%);
   margin: 10px;
   background: hsl(120, 80%, 50%);
   height: 360px;
+  border-radius: 50%;
 }
 .rainbow > div > div > div > div {
-  border: 1px solid hsl(180, 80%, 50%);
   margin: 10px;
   background: hsl(180, 80%, 50%);
   height: 340px;
+  border-radius: 50%;
 }
 .rainbow > div > div > div > div > div {
-  border: 1px solid hsl(240, 80%, 50%);
   margin: 10px;
   background: hsl(240, 80%, 50%);
   height: 320px;
+  border-radius: 50%;
 }
 .rainbow > div > div > div > div > div > div {
-  border: 1px solid hsl(300, 80%, 50%);
   margin: 10px;
   background: hsl(300, 80%, 50%);
   height: 300px;
+  border-radius: 50%;
 }
 .rainbow > div > div > div > div > div > div > div {
-  border: 1px solid hsl(330, 80%, 50%);
   margin: 10px;
   background: hsl(330, 80%, 50%);
   height: 280px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div > div > div > div {
+  margin: 10px;
+  background: hsl(0, 0%, 100%);
+  height: 260px;
+  border-radius: 50%;
 }
